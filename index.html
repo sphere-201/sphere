@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sphere_201 — roblox systems &amp; builds</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23f5b85c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="dist/main.js" defer></script>
+</head>
+<body>
+<div id="root">
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top"><span class="brand-dot" aria-hidden="true"></span>sphere_201</a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#building">Building</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="#contact">Hire me</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-inner">
+      <h1 class="grad-word"><span class="w" style="--i:0"><span class="wi">I</span></span> <span class="w" style="--i:1"><span class="wi">build</span></span> <span class="w" style="--i:2"><span class="wi">the</span></span> <span class="w" style="--i:3"><span class="wi">systems</span></span> <span class="w" style="--i:4"><span class="wi">your</span></span> <span class="w" style="--i:5"><span class="wi">Roblox</span></span> <span class="w" style="--i:6"><span class="wi">game</span></span> <span class="w" style="--i:7"><span class="wi">runs</span></span> <span class="w" style="--i:8"><span class="wi">on.</span></span></h1>
+      <p class="hero-lede">I'm <strong>Sphere</strong>. I've been writing Luau for about two years, mostly combat, inventory and economy systems, and anything that matters gets checked on the server.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://discord.com/users/1196672149608464488" target="_blank" rel="noopener noreferrer">Message me on Discord</a>
+        <a class="btn btn-ghost" href="#work">See the work</a>
+      </div>
+      <p class="hero-meta">2+ yrs luau · systems &amp; builds · gmt+7</p>
+    </div>
+  </div>
+  <div class="horizon" aria-hidden="true"><canvas id="orb"></canvas></div>
+</header>
+
+<div class="console" aria-hidden="true">
+  <div class="wrap">
+    <p class="c-line"><span class="c-time">--:--:--</span> Loaded 23 services in 0.06 s</p>
+    <p class="c-line"><span class="c-time">--:--:--</span> HitboxService: server validation ON</p>
+    <p class="c-line"><span class="c-time">--:--:--</span> CombatCore ready, accepting commissions</p>
+  </div>
+</div>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <p class="eyebrow">How I work</p>
+    <h2 data-reveal="1">Commissions that actually finish.</h2>
+    <p class="sec-lede" data-reveal="2">Plenty of commissions end with the dev just not answering one day. Here's how I run mine so that doesn't happen.</p>
+    <div class="how-grid">
+      <div class="how" data-reveal="1">
+        <h3>Time to build</h3>
+        <p>I put real development hours in every week, so your project moves on a schedule you can see, not "when I get to it."</p>
+      </div>
+      <div class="how" data-reveal="2">
+        <h3>Fast replies on Discord</h3>
+        <p>Discord is my main channel and I respond quickly. Questions, scope changes, progress checks: you won't be left on read.</p>
+      </div>
+      <div class="how" data-reveal="3">
+        <h3>Straight answers</h3>
+        <p>You'll know what's doable and how long it'll take before we start. The code you get is organized and commented.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <p class="eyebrow">Selected work</p>
+    <h2 data-reveal="1">Watch it run.</h2>
+    <p class="sec-lede" data-reveal="2">Nothing on this page is a mockup. These are my systems running in Studio, recorded on my channel <a href="https://www.youtube.com/@Sphere_201" target="_blank" rel="noopener noreferrer">@Sphere_201</a>, and where I used free models it says so right on the card.</p>
+
+    <article class="proj">
+      <div class="proj-media" data-reveal="1">
+        <div class="kit-switch" role="group" aria-label="Combat kit showcases">
+          <button type="button" class="kit-btn is-active" aria-pressed="true" data-video="assets/video/combat-swords.mp4" data-thumb="assets/posters/combat-swords.jpg" data-kit="Swords">Swords</button>
+          <button type="button" class="kit-btn" aria-pressed="false" data-video="assets/video/combat-legs.mp4" data-thumb="assets/posters/combat-legs.jpg" data-kit="Legs">Legs</button>
+          <button type="button" class="kit-btn" aria-pressed="false" data-video="assets/video/combat-fire.mp4" data-thumb="assets/posters/combat-fire.jpg" data-kit="Fire">Fire</button>
+        </div>
+        <div class="video" id="combat-video">
+          <div class="video-tab" aria-hidden="true"><span class="vt-ico"></span><span>CombatSystem</span><span class="vt-x">×</span></div>
+          <video class="video-el" controls muted loop playsinline preload="metadata" poster="assets/posters/combat-swords.jpg" src="assets/video/combat-swords.mp4" aria-label="Combat System — Swords kit showcase"></video>
+        </div>
+        <p class="video-note"><span>combat showcase</span><span>three kits</span><span><a href="https://www.youtube.com/@Sphere_201" target="_blank" rel="noopener noreferrer">youtube.com/@Sphere_201 ↗</a></span></p>
+      </div>
+      <div class="proj-copy" data-reveal="2">
+        <p class="proj-eyebrow">combat · three kits</p>
+        <h3>Combat System</h3>
+        <p>Three full character kits, Swords, Legs and Fire, each with its own abilities, M1 chains, cooldowns, projectiles and movement tech. They all sit on one shared combat core, and the server checks every hit. Switch kits above to watch each one.</p>
+        <div class="made">
+          <div class="made-row by"><span class="k">Built by Sphere</span> all code · animations · UI</div>
+          <div class="made-row tb"><span class="k">Toolbox</span> VFX &amp; SFX models · code-only delivery</div>
+        </div>
+        <div class="tree">
+          <button type="button" class="tree-root" aria-expanded="true">ServerScriptService › Combat</button>
+          <ul class="tree-list">
+            <li>AbilityService</li><li>M1Service</li><li>CooldownService</li><li>DamageService</li><li>HitboxService</li><li>MovementService</li><li>ProjectileService</li><li>StateService</li>
+          </ul>
+        </div>
+        <div class="tree tree--client">
+          <button type="button" class="tree-root" aria-expanded="true">StarterPlayerScripts › Combat</button>
+          <ul class="tree-list">
+            <li>AnimationService</li><li>SFXService</li><li>VFXService</li><li>UIService</li>
+          </ul>
+        </div>
+        <p class="fineprint">Non-commercial, unofficial demo inspired by <em>One Piece</em>. All referenced characters and abilities belong to their respective owners.</p>
+      </div>
+    </article>
+
+    <article class="proj proj--flip">
+      <div class="proj-media" data-reveal="1">
+        <div class="video">
+          <div class="video-tab" aria-hidden="true"><span class="vt-ico"></span><span>TowerDefense</span><span class="vt-x">×</span></div>
+          <video class="video-el" controls muted loop playsinline preload="metadata" poster="assets/posters/tower-defense.jpg" src="assets/video/tower-defense.mp4" aria-label="Tower Defense System showcase"></video>
+        </div>
+        <p class="video-note"><span>tower defense showcase</span><span><a href="https://www.youtube.com/@Sphere_201" target="_blank" rel="noopener noreferrer">youtube.com/@Sphere_201 ↗</a></span></p>
+      </div>
+      <div class="proj-copy" data-reveal="2">
+        <p class="proj-eyebrow">tower defense · 3 towers, 4 enemies</p>
+        <h3>Tower Defense System</h3>
+        <p>A complete tower-defense loop: Handgun, Minigun and Sniper towers against Normal, Agile, Tank and Boss Zombie enemies, with wave spawning, targeting logic and round management all running server-side.</p>
+        <div class="made">
+          <div class="made-row by"><span class="k">Built by Sphere</span> all code · all UI</div>
+          <div class="made-row tb"><span class="k">Toolbox</span> gun &amp; zombie models</div>
+        </div>
+        <div class="tree">
+          <button type="button" class="tree-root" aria-expanded="true">ServerScriptService › TowerDefense</button>
+          <ul class="tree-list">
+            <li>WaveService</li><li>EnemyService</li><li>TowerService</li><li>TargetingService</li><li>RoundService</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj">
+      <div class="proj-media" data-reveal="1">
+        <div class="video">
+          <div class="video-tab" aria-hidden="true"><span class="vt-ico"></span><span>ShopInventory</span><span class="vt-x">×</span></div>
+          <video class="video-el" controls muted loop playsinline preload="metadata" poster="assets/posters/shop-inventory.jpg" src="assets/video/shop-inventory.mp4" aria-label="Shop and Inventory System showcase"></video>
+        </div>
+        <p class="video-note"><span>shop &amp; inventory showcase</span><span><a href="https://www.youtube.com/@Sphere_201" target="_blank" rel="noopener noreferrer">youtube.com/@Sphere_201 ↗</a></span></p>
+      </div>
+      <div class="proj-copy" data-reveal="2">
+        <p class="proj-eyebrow">economy · shop, inventory, items</p>
+        <h3>Shop, Inventory &amp; Item System</h3>
+        <p>A shop running on Coins, Gems and Robux, feeding a full inventory: hotbar, drag-and-drop swapping, equipping, dropping, item stacks, max-item limits and pickupable ground items. Gamepass purchases supported.</p>
+        <div class="made">
+          <div class="made-row by"><span class="k">Built by Sphere</span> all code · all UI</div>
+          <div class="made-row tb"><span class="k">Toolbox</span> SFX &amp; item models</div>
+        </div>
+        <div class="tree">
+          <button type="button" class="tree-root" aria-expanded="true">ServerScriptService › Economy</button>
+          <ul class="tree-list">
+            <li>ShopService</li><li>CurrencyService</li><li>InventoryService</li><li>ItemService</li><li>PickupService</li>
+          </ul>
+        </div>
+        <div class="tree tree--client">
+          <button type="button" class="tree-root" aria-expanded="true">StarterPlayerScripts › Economy</button>
+          <ul class="tree-list">
+            <li>HotbarController</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="building">
+  <div class="wrap">
+    <p class="eyebrow">Building</p>
+    <h2 data-reveal="1">I build the places, too.</h2>
+    <p class="sec-lede" data-reveal="2">Systems are most of my work, but I do environment builds too. These are a marble art gallery and the JEWEL CO. storefront, modeled, trimmed, lit and furnished in Studio. You can commission a build on its own or together with the scripts to run it.</p>
+    <div class="gallery" data-reveal-stagger>
+      <a class="g-tile g-wide" href="assets/build/build-lobby.jpg" data-cap="Gallery lobby · twin elevators">
+        <img src="assets/build/build-lobby.jpg" alt="Marble gallery lobby with twin elevators, gold trim, framed paintings and seating" loading="lazy" decoding="async" width="1600" height="592">
+      </a>
+      <a class="g-tile" href="assets/build/build-gallery-wall.jpg" data-cap="Gallery · abstract wing">
+        <img src="assets/build/build-gallery-wall.jpg" alt="Art gallery wall with three framed abstract paintings and gold columns" loading="lazy" decoding="async" width="1600" height="596">
+      </a>
+      <a class="g-tile" href="assets/build/build-gallery-hall.jpg" data-cap="Gallery · main hall">
+        <img src="assets/build/build-gallery-hall.jpg" alt="Gallery hallway with classic paintings, bench and marble walls" loading="lazy" decoding="async" width="1600" height="610">
+      </a>
+      <a class="g-tile" href="assets/build/build-gallery-top.jpg" data-cap="Gallery · overhead">
+        <img src="assets/build/build-gallery-top.jpg" alt="Overhead view of the art gallery rooms and gold-trimmed walls" loading="lazy" decoding="async" width="1600" height="579">
+      </a>
+      <a class="g-tile" href="assets/build/build-jewel-desk.jpg" data-cap="JEWEL CO. · front desk">
+        <img src="assets/build/build-jewel-desk.jpg" alt="Jewelry store interior with curved front desk, diamond logo and display cases" loading="lazy" decoding="async" width="1600" height="593">
+      </a>
+      <a class="g-tile" href="assets/build/build-jewel-showroom.jpg" data-cap="JEWEL CO. · showroom">
+        <img src="assets/build/build-jewel-showroom.jpg" alt="Jewelry showroom with red carpet, display cases and ocean-view windows" loading="lazy" decoding="async" width="1600" height="590">
+      </a>
+    </div>
+    <div class="made">
+      <div class="made-row by"><span class="k">Built by Sphere</span> architecture · trim · lighting · furnishing</div>
+      <div class="made-row tb"><span class="k">Toolbox</span> artwork decals &amp; select furniture models</div>
+    </div>
+    <a class="btn btn-ghost" href="#contact">Hire me for a build</a>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <p class="eyebrow">Services</p>
+    <h2 data-reveal="1">What you can hire me for.</h2>
+    <p class="sec-lede" data-reveal="2">One module or a whole game loop, your call. Everything ships as clean, documented Luau you can read and extend yourself.</p>
+    <div class="cap-list">
+      <div class="cap" data-reveal="1"><span class="cap-idx">01</span><div><h3>Combat</h3><p>Hitboxes, damage pipelines, abilities and status effects that hold up under real players.</p></div></div>
+      <div class="cap" data-reveal="2"><span class="cap-idx">02</span><div><h3>Inventory &amp; Items</h3><p>Inventories, hotbars, shops and pickups with stacking, equipping and limits handled properly.</p></div></div>
+      <div class="cap" data-reveal="1"><span class="cap-idx">03</span><div><h3>Economy</h3><p>Currencies, purchases, rewards and progression that exploiters can't print money through.</p></div></div>
+      <div class="cap" data-reveal="2"><span class="cap-idx">04</span><div><h3>Gameplay</h3><p>Rounds, game modes, movement, spawning and the interactions that carry a match from lobby to win screen.</p></div></div>
+      <div class="cap" data-reveal="1"><span class="cap-idx">05</span><div><h3>UI &amp; Visuals</h3><p>Notifications, dynamic UI, VFX, animations and viewport displays wired to real game state.</p></div></div>
+      <div class="cap" data-reveal="2"><span class="cap-idx">06</span><div><h3>Multiplayer</h3><p>Client–server architecture, RemoteEvents and server validation designed in from day one.</p></div></div>
+      <div class="cap cap--wide" data-reveal="1"><span class="cap-idx">07</span><div><h3>Environment Building</h3><p>Lobbies, galleries, storefronts and show spaces, built to match your game's look.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="wrap">
+    <p class="eyebrow">Skills</p>
+    <h2 data-reveal="1">The client asks. The server decides.</h2>
+    <p class="sec-lede" data-reveal="2">Every system on this page runs on the same rule: the client is never trusted with an outcome. That rule is what keeps a game from getting torn apart by exploiters the week it launches.</p>
+    <div class="skill-grid">
+      <ul class="skill-list" data-reveal-stagger>
+        <li>Luau <span>typed · idiomatic · fast</span></li>
+        <li>Systems architecture <span>independent, expandable services</span></li>
+        <li>Client–server development <span>remotes &amp; replication</span></li>
+        <li>Gameplay programming <span>mechanics that feel right</span></li>
+        <li>UI programming <span>state-driven interfaces</span></li>
+        <li>Data &amp; player state <span>sessions · saves · inventories</span></li>
+        <li>Debugging <span>find it, fix it, explain it</span></li>
+        <li>Performance optimization <span>frame budget respected</span></li>
+      </ul>
+      <div class="arch" data-reveal="2">
+        <div class="arch-box arch-cli"><span class="who">CLIENT</span><span class="what">input &amp; presentation — never trusted with the outcome</span></div>
+        <div class="arch-flow">RemoteEvent:FireServer(target)</div>
+        <div class="arch-box arch-srv"><span class="who">SERVER</span><span class="what">validate → apply → replicate</span></div>
+<pre><span class="c">-- the server decides, never the client</span>
+hitRemote.OnServerEvent:Connect(<wbr><span class="kw">function</span>(player, target)
+    <span class="kw">if not</span> HitboxService:<span class="fn">Validate</span>(player, target) <span class="kw">then return end</span>
+    DamageService:<span class="fn">Apply</span>(target, moves[player].Damage)
+<span class="kw">end</span>)</pre>
+        <p class="arch-cap">Anything the client controls, an exploiter controls. So the checks live on the server.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimony">
+  <div class="wrap">
+    <div class="testi" data-reveal="1">
+      <span class="testi-slot">[ SLOT RESERVED ]</span>
+      <h2 class="grad">Your name could be the first here.</h2>
+      <p>I'm early in my freelance run, which means you get a developer with <b>something to prove</b>: full attention on your project, and a finished system I'll want to show off.</p>
+      <a class="btn btn-ghost" href="https://discord.com/users/1196672149608464488" target="_blank" rel="noopener noreferrer">Claim the slot</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact-box" data-reveal="1">
+      <p class="eyebrow eyebrow--center">Contact</p>
+      <h2 class="grad">Got a system that needs building?</h2>
+      <p class="sec-lede">Discord is the fastest way to reach me. Tell me what you're making and what you need built.</p>
+      <div class="handle-row">
+        <a class="btn btn-primary" href="https://discord.com/users/1196672149608464488" target="_blank" rel="noopener noreferrer">Message @sphere_201 on Discord</a>
+        <button class="mini-btn" id="copybtn" type="button">copy handle</button>
+      </div>
+      <div class="contact-meta">
+        <span>discord <span id="dchandle">@sphere_201</span></span>
+        <span>roblox <a href="https://www.roblox.com/users/2785857103/profile" target="_blank" rel="noopener noreferrer">@sphere_201</a></span>
+        <span>dev alt <a href="https://www.roblox.com/users/10044943938/profile" target="_blank" rel="noopener noreferrer">@duke200455</a></span>
+        <span>GMT+7 · <span class="clock-inline" id="localtime">--:--</span> my time</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<dialog class="lightbox" id="lightbox" aria-label="Build screenshot viewer">
+  <button class="mini-btn lb-close" type="button" aria-label="Close">✕</button>
+  <img id="lb-img" src="" alt="">
+  <div class="lb-bar">
+    <button class="mini-btn lb-prev" type="button" aria-label="Previous image">←</button>
+    <p id="lb-cap"></p>
+    <button class="mini-btn lb-next" type="button" aria-label="Next image">→</button>
+  </div>
+</dialog>
+
+<hr class="rule">
+<footer>
+  <div class="wrap foot-inner">
+    <p>© 2026 sphere_201</p>
+    <p>hand-written luau · recorded in studio</p>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
